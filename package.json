@@ -1,0 +1,33 @@
+{
+  "name": "markdown-blog",
+  "version": "1.0.0",
+  "description": "A backend using node, Express, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haase1020/markdown-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haase1020/markdown-blog/issues"
+  },
+  "homepage": "https://github.com/haase1020/markdown-blog#readme",
+  "dependencies": {
+    "dompurify": "^2.2.6",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "marked": "^1.2.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.13",
+    "slugify": "^1.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
